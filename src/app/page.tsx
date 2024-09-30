@@ -1,7 +1,6 @@
 import Image from "next/image";
 import SS from "../public/SS.png";
-import Header from  "@/component/header";
-import Footer from  "@/component/footer";
+
 
 export default function Home() {
   return (
