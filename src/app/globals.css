@@ -128,6 +128,7 @@ header{
 .blogCard{
   width: 325px;
   height: 325px;
+  gap: 2rem;
   min-height: 325;
   background-color: #d8d8d8;
   border-radius: 12px;
