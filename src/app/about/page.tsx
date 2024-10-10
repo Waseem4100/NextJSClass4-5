@@ -1,19 +1,10 @@
-"use client";
-import react,{ useTransition, useState} from "react";
+
 import Image from "next/image"
 import about from "@/public/about.jpg"
 
 export default function About() {
 
-  // const[tab,setTab] = useState("skills")
-  // const [startTransition,isPending] = useTransition();
 
-  // const handleTabChange = (id)=>{
-  //   startTransition{()=>{
-  //     setTab(id)
-  //   }}
-
-  // }
      
     return (
         <div className="text-white">
