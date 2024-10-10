@@ -1,30 +1,11 @@
-import Link from "next/link"
-
-
-
-
-
-
+import Link from "next/link";
 export default function Footer(){
-    return(
-    <div className="footer">
-
-        
-     
-         <ul className="footer-btn">
-            <a href="mailto:waseemahmed4100@gmail">Email</a>
-            <Link href="https://www.linkedin.com/in/waseem-ahmed117068/">Linkdin</Link>
-         
-         
-         </ul>
-   
-
-  
-
-
-          
-  
-    </div>
-
-    )
+  return  (
+        <footer >
+          <div className="footerContainer">
+          <h3 className="footerLogo">  <Link href={`/`}> WASEEM AHMED</Link> </h3>
+            <p className="footerParagraph">All rights reserved.</p>
+          </div>
+        </footer>
+      );
 }
