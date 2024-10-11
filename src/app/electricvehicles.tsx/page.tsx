@@ -1,6 +1,6 @@
 import Image from "next/image"
 import electricvehiclesimage from "@/public/electricvehiclesimage.webp"
-import styles from ""
+
 
 
 
