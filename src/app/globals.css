@@ -80,16 +80,16 @@ header{
 @media(max-width:995px){
   .header-button{
     position: absolute;
-    display: none;
+    display: block;
     top: 0;
     right: 0;
     width: 40%;
-    border-left:3px solid #b74b4b ;
-    border-bottom: 3px solid #b74b4b;
+    border-left:3px solid #214dc6; ;
+    border-bottom: 3px solid #214dc6;;
     border-bottom-left-radius: 2rem;
     padding: 1rem;
-    background-color: #161616;
-    border-top: 0.1rem solid rgba(0,0,0,0.1);
+    background-color: rgb(199, 199, 199);
+    border-top: 0.1rem solid rgb(239, 233, 233);;
   }
   .header-button{
     display: hidden ;
@@ -107,7 +107,7 @@ header{
   .header-btn:active{
     padding: 1rem;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #b74b4b;
+    border-bottom: 0.5rem solid  #214dc6;
 
 
   }
@@ -122,13 +122,14 @@ header{
   min-height: 500px;
   padding: 40px;
   flex-wrap: wrap;
+  margin-left: 50px;
 
 }
 
 .blogCard{
-  width: 325px;
-  height: 325px;
-  gap: 4rem;
+  width: 425px;
+  height: 600px;
+  gap: 10rem;
   min-height: 325;
   background-color: #d8d8d8;
   border-radius: 12px;
@@ -136,7 +137,7 @@ header{
   margin-top: 100px;
   transition-duration: 0.5s ;
   margin-bottom: 30px;
-  margin-left: 30px;
+  margin-left: 60px;
 
 
 }
@@ -150,10 +151,10 @@ header{
 
 .blogImage{
   width: 100%;
-  height: 175px;
+  height: 400px;
   background-color: #214dc6;;
  
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .blogTitle{
@@ -167,7 +168,11 @@ header{
 .blogDescription{
   margin-left: 20px;
   width: 92%;
+  opacity: 100%;
+  font: 4rem;
 }
+
+
 
 .blogButton{
   margin-left: 30px;
@@ -208,20 +213,20 @@ header{
 @media(max-width:600px){
   .blogTitle{
     flex-direction: column;
-    margin: 5rem 4em;
+    margin: 2rem 2em;
 
 
   }
 
   .blogTitle{
-    font-size: 2rem;
+    font-size: 1.5rem;
 
   }
 
   .blogCard{
     margin-left: 20px;
     width: 650px;
-    height: 400px;;
+    height: fit-content;
   
   }
  .blogImage{
@@ -264,7 +269,7 @@ header{
   bottom: 0;
   left: 0;
   width: 100%;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 .footerLogo{
   font-size: 30px;
@@ -281,12 +286,16 @@ header{
   .footerContainer{
     flex-direction: column;
     padding: 10px;
-    align-items: flex-start;
+    
   }
   .footerLogo{
     font-size: 20px;
+    
   }
   .footerParagraph{
     font-size: 12px;
   }
 }
+
+
+
