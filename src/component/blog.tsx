@@ -49,7 +49,7 @@ export default function Blog() {
         <h1 className="blogTitle">The Future of Electric Vehicles: Driving Towards Sustainability</h1>
         <p className="blogDescription"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, nobis? Facere deleniti pariatur obcaecati explicabo! Est sed, officia aliquid fuga dolore possimus fugiat officiis corporis perspiciatis odio quasi similique dolores!</p>
         <ul className="blogButton">
-        <Link href=  {` electricvehicles`}><li className="bloglink">READ MORE</li></Link>
+        <Link href=  {`electricvehicles`}><li className="bloglink">READ MORE</li></Link>
       
           
           </ul>

@@ -20,7 +20,7 @@ export default function Header (){
         <header id="header" > 
 
 
-       <h3 className="logo">  <Link href={`/`}> WASEEM AHMED</Link> </h3>
+       <h3 className="logo">  <Link href={`/`}> BLOGWEB</Link> </h3>
       
        
     
