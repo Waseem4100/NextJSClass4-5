@@ -8,9 +8,9 @@ import linkdine from "@/public/linkdine.png"
 export default function Contact () {
     
     return (
-        <div className="mt-40 ml-20">
+        <div className="mt-40 ml-20 mr-10">
        
-       <div className="conectSection">
+       <div className="conectSection  mr-10">
 
 
 <h5 className="conectHeading">

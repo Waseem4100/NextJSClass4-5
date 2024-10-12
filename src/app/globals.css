@@ -111,8 +111,8 @@ header{
 
   .header-btn{
   
-    font-size: 0.8rem;
-    margin: 1.5rem 0;
+    font-size: 1rem;
+    margin: 1rem 0;
   }
 
   .header-btn:hover,
@@ -322,7 +322,7 @@ header{
 /* contact */
 .conectSection{
   width: 35%;
-  margin-left: 20px;
+ 
   height: 500px;
 }
 .conectHeading{
