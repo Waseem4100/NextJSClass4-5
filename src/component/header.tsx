@@ -28,7 +28,7 @@ export default function Header (){
       <Link href={`/`}> <li className="header-btn">Home</li></Link> 
       <Link href={`/contact`}> <li className="header-btn">Contact</li></Link>
       <Link href={`/about`}> <li className="header-btn">About</li></Link>
-      <Link href={`/projects`}> <li className="header-btn">Project</li></Link>
+     
         </ul>
   
         </header>   
