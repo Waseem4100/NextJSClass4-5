@@ -139,8 +139,8 @@ header{
 }
 
 .blogCard{
-  width: 425px;
-  height: 600px;
+  width: 325px;
+  height: 530px;
   gap: 10rem;
   min-height: 325;
   background-color: #d8d8d8;
@@ -149,7 +149,7 @@ header{
   margin-top: 100px;
   transition-duration: 0.5s ;
   margin-bottom: 30px;
-  margin-left: 60px;
+  margin-left: 20px;
 
 
 }
@@ -163,7 +163,7 @@ header{
 
 .blogImage{
   width: 100%;
-  height: 400px;
+  height: 325px;
   background-color: #214dc6;;
  
   border-radius: 5px;
@@ -179,7 +179,8 @@ header{
 }
 .blogDescription{
   margin-left: 20px;
-  width: 92%;
+  height: 190;
+  width: 90%;
   opacity: 100%;
   font: 4rem;
 }
@@ -243,13 +244,13 @@ header{
 
   .blogCard{
     margin-left: 20px;
-    width: 650px;
+    width: 550px;
     height: fit-content;
   
   }
  .blogImage{
    
-    height: 300px;
+    height: 250px;
     
   }
 }

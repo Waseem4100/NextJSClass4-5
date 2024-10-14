@@ -7,6 +7,13 @@ import  theriseofaiineverydaylifeimage  from "@/public/theriseofaiineverydaylife
 import  thefutureofremoteworkimage  from "@/public/thefutureofremoteworkimage.webp"
 import  exploringthemetaverseimage from "@/public/exploringthemetaverseimage.webp"
 
+type Idata ={
+  Title : string, 
+  Description: string,
+
+}
+
+const data : Idata[]= [{Title:"The Digital Nomad Lifestyle: Working from Paradise",Description:"hi"}]
 
 export default function Blog() {
     
@@ -33,7 +40,7 @@ export default function Blog() {
         <div className="blogImage" >
          <Image src={sustainablefashionimage} alt="calculator"  className="blogImage" /> 
         </div>
-        <h1 className="blogTitle">The Rise of Sustainable Fashion: A New Era of Eco-Friendly Clothing</h1>
+        <h1 className="blogTitle">The Rise of Sustainable Fashion: Era of Eco-Friendly Clothing</h1>
         <p className="blogDescription"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, nobis? Facere deleniti pariatur obcaecati explicabo! Est sed, officia aliquid fuga dolore possimus fugiat officiis corporis perspiciatis odio quasi similique dolores!</p>
         <ul className="blogButton">
         <Link href={`/sustainablefashion`}><li className="bloglink">READ MORE</li></Link>
@@ -53,16 +60,11 @@ export default function Blog() {
       
           
           </ul>
+
+
+
       </div>
 
-     
-     
-   
-
-
-         
-     
-    
 
        <div className="blogCard">
         <div className="blogImage">
@@ -103,7 +105,7 @@ export default function Blog() {
 
       </div>
      
-    
+
 
      </div>
      
